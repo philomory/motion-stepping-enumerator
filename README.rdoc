@@ -19,6 +19,6 @@ This code monkey-patches the stepping methods (#next, #peek and #reset) into the
 
 == Attribution and Copyright
 
-Grand Central Dispatch-based Fiber implementation originally by {Al Skipp} [https://github.com/alskipp/MacrubyFibers]
+Grand Central Dispatch-based Fiber implementation originally by {Al Skipp}[https://github.com/alskipp/MacrubyFibers]
 
 See LICENSE file for copyright information.
