@@ -1,0 +1,24 @@
+= Stepping Enumerator
+
+An implementation of Enumerator#next, #peek and #reset for Rubymotion
+
+== Installation
+
+In order to use this in your project, copy stepping_enumerator.rb and gcd_fiber.rb into your project's load path.
+
+== Usage
+
+This code monkey-patches the stepping methods (#next, #peek and #reset) into the core Enumerator class.
+
+    a = [1,2,3]
+    e = a.to_enum
+    p e.next   #=> 1
+    p e.next   #=> 2
+    p e.next   #=> 3
+    p e.next   #raises StopIteration
+
+== Attribution and Copyright
+
+Grand Central Dispatch-based Fiber implementation originally by {Al Skipp} [https://github.com/alskipp/MacrubyFibers]
+
+See LICENSE file for copyright information.
